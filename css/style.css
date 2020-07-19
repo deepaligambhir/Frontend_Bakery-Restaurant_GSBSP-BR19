@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Baloo Chettan 2", cursive;
   line-height: 1.5;
@@ -478,6 +482,12 @@ body {
   color: orange;
   cursor: pointer;
   border: 2px solid black;
+}
+
+.contact-btn:hover {
+  color: black;
+  background: orange;
+  border: none;
 }
 
 /* End of Contact Button */
